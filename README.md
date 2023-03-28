@@ -15,13 +15,13 @@ Inspired from [clean-code-javascript](https://github.com/ryanmcdermott/clean-cod
 
 **Bad:**
 ```go
-yyyymmdstr := time.Now().UTC().format("2006/05/21");
+yyyymmdstr := time.Now().UTC().Format("2006/05/21");
 ```
 
 **Good:**
 
-```javascript
-currentDate := time.Now().UTC().format("2006/05/21");
+```go
+currentDate := time.Now().UTC().Format("2006/05/21");
 ```
 
 **[⬆ back to top](#table-of-contents)**
